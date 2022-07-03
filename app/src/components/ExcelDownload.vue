@@ -8,6 +8,7 @@
             :fields="json_fields"
             type="csv"
             name="filename.xls"
+            
             >
             <button type="button" class="download-btn" v-on:click="download">Download</button>
         </download-excel>
